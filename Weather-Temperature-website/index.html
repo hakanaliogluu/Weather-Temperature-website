@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hava Durumu</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Hava Durumu</h1>
+    <div class="search-container">
+      <input type="text" id="city-input" placeholder="Şehir Veya İlçe Adı Girin" onkeydown="search(event)">
+    </div>
+    <div class="weather-info">
+      <h2 class="city"></h2> <!-- Şehir adını göstermek için kullanılacak -->
+      <p class="temp"></p> <!-- Sıcaklık bilgisini göstermek için kullanılacak -->
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- JavaScript dosyası -->
+</body>
+</html>

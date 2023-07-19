@@ -1,0 +1,46 @@
+.container {
+  text-align: center;
+  background-image: url('HavaDurumu.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .title {
+  color: #333; /* Başlık rengi */
+  }
+  
+  .search-container {
+  margin: 20px auto; /* Arama alanının kenar boşlukları */
+  display: flex;
+  justify-content: center;
+  }
+  
+  #city-input {
+  padding: 8px; /* Şehir giriş kutusunun iç boşluğu /
+  width: 200px; / Şehir giriş kutusunun genişliği /
+  border: 1px solid #ccc; / Şehir giriş kutusu kenarlığı /
+  border-radius: 4px; / Şehir giriş kutusu köşelerinin yuvarlatılması */
+  }
+  
+  #search-button {
+  padding: 8px 12px; /* Arama düğmesinin iç boşluğu /
+  border: none; / Arama düğmesi kenarlığı /
+  background-color: #4CAF50; / Arama düğmesi arka plan rengi /
+  color: white; / Arama düğmesi metin rengi /
+  cursor: pointer; / Arama düğmesi imleç şekli */
+  }
+  
+  .weather-info {
+  margin-top: 20px; /* Hava durumu bilgileri üst boşluğu /
+  font-size: 18px; / Hava durumu bilgileri metin boyutu */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
